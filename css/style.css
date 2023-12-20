@@ -3,17 +3,13 @@
     padding: 0;
 }
 
-a, button /* &c... */ {
+a, button {
     all: unset;
 }
 
 
 
-/* button {
-    background: none;
-    border: none;
-    padding: 0;
-} */
+
 
 .header {
     margin-top: 40px;
@@ -58,7 +54,7 @@ a, button /* &c... */ {
 }
 
 .buttons {
-
+    padding: 21px 23px 23px 23px;
 }
 
 .button {
@@ -68,6 +64,7 @@ a, button /* &c... */ {
     text-align: left;
     color: #AAAAAA;
     padding: 15px 36px 16px 35px;
+    margin-top: 37px;
     border-radius: 50px
 }
 .button_active {
@@ -79,4 +76,8 @@ a, button /* &c... */ {
 .footer{
     display: flex;
     width: 100%;
+}
+
+.top__content {
+    display: flex;
 }
